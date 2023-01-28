@@ -152,6 +152,74 @@
         </LinearLayout>
 
     </LinearLayout>
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bucket"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <HorizontalScrollView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="#9CEFAE"
+                    android:background="@drawable/scroll_rounded"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:text="Post"
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
 
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="#4D8FDC"
+                    android:background="@drawable/scroll_rounded"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:text="Tread"
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
 
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="#E8B27F"
+                    android:background="@drawable/scroll_rounded"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:text="Your Home"
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
 </LinearLayout>
