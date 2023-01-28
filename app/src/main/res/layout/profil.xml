@@ -29,18 +29,19 @@
         </LinearLayout>
     </androidx.appcompat.widget.Toolbar>
     <LinearLayout
+        android:orientation="vertical"
         android:padding="20dp"
         android:background="@drawable/rounded_backgrounde"
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="wrap_content">
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
                 android:src="@drawable/profil"
-                android:layout_width="100dp"
-                android:layout_height="100dp" />
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -51,7 +52,7 @@
                     android:textStyle="bold"
                     android:textColor="#ffffff"
                     android:textSize="22dp"
-                    android:text="Muhammad Akbar Nugraha"
+                    android:text="Akbar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
                 <TextView
@@ -71,7 +72,86 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
-        
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="1.203"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textSize="12dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="Following"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="582"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textSize="12dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="Followers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textSize="12dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="Post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
     </LinearLayout>
+
 
 </LinearLayout>
