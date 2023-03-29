@@ -11,8 +11,4 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profil);
     }
-
-    public function add() {
-
-    }
 }
